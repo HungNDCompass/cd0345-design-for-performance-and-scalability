@@ -1,0 +1,24 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total undefined months cost,Currency
+0,5964.490000000001,71573.88,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First undefined months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,1457.36,17488.32,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m5.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (enabled), EBS Storage amount (1 TB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,188.42,2261.04,USD,,S3 Standard storage (8 TB per month)
+My Estimate,US East (N. Virginia),,S3 Management and Insights,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,Data Transfer,0,276.48,3317.76,USD,,"DT Inbound: Internet (5 TB per month), DT Outbound: Internet (3 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,1444.6,17335.20,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB), Nodes (2), Instance Type (db.m1.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,1784.85,21418.20,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,104.03,1248.36,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (20 GB per hour), Average number of new TCP connections (1000 per second), Average TCP connection duration (600 seconds)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,450.08,5400.96,USD,,"Number of requests (HTTPS) (20000000 per month), Data transfer out to internet (4 TB per month), Data transfer out to origin (4 TB per month)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,217.17,2606.04,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,AWS CloudTrail,0,5.5,66.00,USD,,"Management events units (millions), Write management trails (1), Read management trails (1), Data events units (millions), S3 trails (1), Lambda trails (1), Insight events units (millions), Trails with Insight events (1), S3 operations (2 per month), Number of write management events analyzed (1 per month), Read management events (1 per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,36,432.00,USD,,Number of Metrics (includes detailed and custom metrics) (120)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
