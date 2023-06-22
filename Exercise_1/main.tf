@@ -25,6 +25,9 @@ resource "aws_instance" "Udacity_T2" {
   instance_type = "t2.micro"
   subnet_id     = "subnet-0babd91262195c30e"
   count         = 4
+  tags = {
+    "Name" = "Udacity T2"
+  }
 }
 
 resource "aws_instance" "Udacity_M4" {
@@ -32,4 +35,7 @@ resource "aws_instance" "Udacity_M4" {
   instance_type = "m4.large"
   subnet_id     = "subnet-0babd91262195c30e"
   count         = 2
+  tags = {
+    "Name" = "Udacity M4"
+  }
 }
