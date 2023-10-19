@@ -1,0 +1,17 @@
+name: cd0345-design-for-performance-and-scalability
+id: ari:cloud:compass:3ab5acf2-091e-497d-b8c6-6511ca9278bd:component/95fc579b-6d01-4977-b732-3068918b49e3/2d7cc156-16d1-4441-b898-3af236a7b6be
+description: Design for Performance and Scalability Project
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/HungNDCompass/cd0345-design-for-performance-and-scalability
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:hcl
+  - source:github
+customFields: null
